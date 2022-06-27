@@ -70,6 +70,7 @@ maforme.addEventListener("input", function (f) {
     let myError = document.querySelector("#error2");
     myError.innerHTML = "Email can not be empty";
     myError.style.visibility = "hidden";
+    myinput2.style.border = "1px solid green";
   }
 });
 maforme.addEventListener("input", function (f) {

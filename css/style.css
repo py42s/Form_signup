@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
 body {
-  background: url("../images/bg-intro-mobile.png"), #ff7a7a;
+  background: url("../img/bg-intro-mobile.png"), #ff7a7a;
   background-position: center;
   background-repeat: repeat;
   font-size: 1em;
@@ -10,7 +10,7 @@ body {
 
 @media (min-width: 768px) {
   body {
-    background: url("../images/bg-intro-desktop.png"), #ff7a7a;
+    background: url("../img/bg-intro-desktop.png"), #ff7a7a;
     background-position: center;
     background-repeat: repeat;
   }
@@ -132,14 +132,11 @@ input[type="submit"]:hover {
 }
 
 .error-icon {
-  background: url("../images/icon-error.svg") no-repeat;
+  background: url("../img/icon-error.svg") no-repeat;
   background-position: 95% center;
   background-size: 1rem 1rem;
 }
 
-input[type="email"]:valid {
-  border: 1px solid green;
-}
 input[type="email"]:invalid {
   border: 1px solid red;
 }
