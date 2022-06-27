@@ -136,3 +136,10 @@ input[type="submit"]:hover {
   background-position: 95% center;
   background-size: 1rem 1rem;
 }
+
+input[type="email"]:valid {
+  border: 1px solid green;
+}
+input[type="email"]:invalid {
+  border: 1px solid red;
+}

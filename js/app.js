@@ -12,6 +12,7 @@ maforme.addEventListener("submit", function (e) {
     let myError = document.querySelector("#error");
     myError.innerHTML = "First name can not be empty";
     myError.style.color = "red";
+    myinput.style.border = "1px solid red";
     e.preventDefault();
   }
 
@@ -20,6 +21,7 @@ maforme.addEventListener("submit", function (e) {
     let myError = document.querySelector("#error1");
     myError.innerHTML = "Last can not be empty";
     myError.style.color = "red";
+    myinput1.style.border = "1px solid red";
     e.preventDefault();
   }
 
@@ -28,6 +30,7 @@ maforme.addEventListener("submit", function (e) {
     let myError = document.querySelector("#error2");
     myError.innerHTML = "Email can not be empty";
     myError.style.color = "red";
+    myinput2.style.border = "1px solid red";
     e.preventDefault();
   }
 
@@ -36,6 +39,7 @@ maforme.addEventListener("submit", function (e) {
     let myError = document.querySelector("#error3");
     myError.innerHTML = "password can not be empty";
     myError.style.color = "red";
+    myinput3.style.border = "1px solid red";
     e.preventDefault();
   }
 });
@@ -48,6 +52,7 @@ maforme.addEventListener("input", function (f) {
     let myError = document.querySelector("#error");
     myError.innerHTML = "First name can not be empty";
     myError.style.visibility = "hidden";
+    myinput.style.border = "1px solid green";
   }
 });
 maforme.addEventListener("input", function (f) {
@@ -56,6 +61,7 @@ maforme.addEventListener("input", function (f) {
     let myError = document.querySelector("#error1");
     myError.innerHTML = "Last can not be empty";
     myError.style.visibility = "hidden";
+    myinput1.style.border = "1px solid green";
   }
 });
 maforme.addEventListener("input", function (f) {
@@ -72,5 +78,6 @@ maforme.addEventListener("input", function (f) {
     let myError = document.querySelector("#error3");
     myError.innerHTML = "password can not be empty";
     myError.style.visibility = "hidden";
+    myinput3.style.border = "1px solid green";
   }
 });
